@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" id="rcc">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="piano.css">
+    <script src="snowfall.min.js"></script>
+    <title>Piano</title>
+</head>
+
+<body>
+          
+        <div class="pianocontainer">
+        <div class="repertuvar">
+            <button onclick="sevdanolmasa()">Sevdan Olmasa</button>
+            <button onclick="magusa()">Magusa Limanı</button>
+        </div>
+        <div class="piyano">
+        <div class="f3 piano beyaz" onclick="playAudio(f3)"></div>
+        <div class="f3b piano siyah" onclick="playAudio(f3b)"></div>
+        <div class="g3 piano beyaz" onclick="playAudio(g3)"></div>
+        <div class="g3b piano siyah" onclick="playAudio(g3b)"></div>
+        <div class="a3 piano beyaz" onclick="playAudio(a3)"></div>
+        <div class="a3b piano siyah" onclick="playAudio(a3b)"></div>
+        <div class="b3 piano beyaz" onclick="playAudio(b3)"></div>
+        <div class="c4 piano beyaz" onclick="playAudio(c4)"></div>
+        <div class="c4b piano siyah" onclick="playAudio(c4b)"></div>
+        <div class="d4 piano beyaz" onclick="playAudio(d4)"></div>
+        <div class="d4b piano siyah" onclick="playAudio(d4b)"></div>
+        <div class="e4 piano beyaz" onclick="playAudio(e4)"></div>
+        <div class="f4 piano beyaz" onclick="playAudio(f4)"></div>
+        <div class="f4b piano siyah" onclick="playAudio(f4b)"></div>
+        <div class="g4 piano beyaz" onclick="playAudio(g4)"></div>
+        <div class="b4g4b g4b piano siyah" onclick="playAudio(g4b)"></div>
+        <div class="a4 piano beyaz" onclick="playAudio(a4)"></div>
+        <div class="a4b piano siyah" onclick="playAudio(a4b)"></div>
+        <div class="b4g4b b4 piano beyaz" onclick="playAudio(b4)"></div>
+        <div class="c5 piano beyaz" onclick="playAudio(c5)"></div>
+        <div class="c5b piano siyah" onclick="playAudio(c5b)"></div>
+        <div class="d5 piano beyaz" onclick="playAudio(d5)"></div>
+        <div class="d5b piano siyah" onclick="playAudio(d5b)"></div>
+        <div class="e5 piano beyaz" onclick="playAudio(e5)"></div>
+        <div class="f5 piano beyaz" onclick="playAudio(f5)"></div>
+        <div class="f5b piano siyah" onclick="playAudio(f5b)"></div>
+        <div class="g5 piano beyaz" onclick="playAudio(g5)"></div>
+        <div class="g5b piano siyah" onclick="playAudio(g5b)"></div>
+        <div class="a5 piano beyaz" onclick="playAudio(a5)"></div>
+        <div class="a5b piano siyah" onclick="playAudio(a5b)"></div>
+        <div class="b5 piano beyaz" onclick="playAudio(b5)"></div>
+        <div class="c6 piano beyaz" onclick="playAudio(c6)"></div>
+        <div class="c6b piano siyah" onclick="playAudio(c6b)"></div>
+        <div class="d6 piano beyaz" onclick="playAudio(d6)"></div>
+        <div class="d6b piano siyah" onclick="playAudio(d6b)"></div>
+        <div class="e6 piano beyaz" onclick="playAudio(e6)"></div>
+    </div>
+</div>
+    <audio id="f3">
+        <source src="pianonota/f3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="f3b">
+        <source src="pianonota/f3b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="g3">
+        <source src="pianonota/g3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="g3b">
+        <source src="pianonota/g3b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a3">
+        <source src="pianonota/a3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a3b">
+        <source src="pianonota/a3b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="b3">
+        <source src="pianonota/b3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="c4">
+        <source src="pianonota/c4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="c4b">
+        <source src="pianonota/c4b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="d4">
+        <source src="pianonota/d4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="d4b">
+        <source src="pianonota/d4b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="e4">
+        <source src="pianonota/e4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="f4">
+        <source src="pianonota/f4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="f4b">
+        <source src="pianonota/f4b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="g4">
+        <source src="pianonota/g4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="g4b">
+        <source src="pianonota/g4b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a4">
+        <source src="pianonota/a4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a4b">
+        <source src="pianonota/a4b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="b4">
+        <source src="pianonota/b4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="c5">
+        <source src="pianonota/c5.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="c5b">
+        <source src="pianonota/c5b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="d5">
+        <source src="pianonota/d5.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="d5b">
+        <source src="pianonota/d5b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="e5">
+        <source src="pianonota/e5.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="f5">
+        <source src="pianonota/f5.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="f5b">
+        <source src="pianonota/f5b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="g5">
+        <source src="pianonota/g5.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="g5b">
+        <source src="pianonota/g5b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a5">
+        <source src="pianonota/a5.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a5b">
+        <source src="pianonota/a5b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="b5">
+        <source src="pianonota/b5.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="c6">
+        <source src="pianonota/c6.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="c6b">
+        <source src="pianonota/c6b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="d6">
+        <source src="pianonota/d6.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="d6b">
+        <source src="pianonota/d6b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="e6">
+        <source src="pianonota/e6.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="b5a">
+        <source src="pianonota/b5a.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="e5a">
+        <source src="pianonota/e5a.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="d6a">
+        <source src="pianonota/d6a.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a5a">
+        <source src="pianonota/a5a.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="f5a">
+        <source src="pianonota/f5a.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="g5ba">
+        <source src="pianonota/g5ba.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="b4g4b">
+        <source src="pianonota/b4g4b.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a4f4">
+        <source src="pianonota/a4f4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="a4a">
+        <source src="pianonota/a4a.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="g5a">
+        <source src="pianonota/g5a.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="c6a">
+        <source src="pianonota/c6a.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+body{
+  background-color: #abc;
+  box-sizing: border-box;
+}
+
+.pianocontainer{
+  position: relative;
+
+}
+.piano{
+  display: inline-block;
+}
+.beyaz{
+  border: 1px solid black;
+  background-color:#d4caca;
+  width: 50px;
+  height: 150px;
+  box-shadow:0 20px 10px rgba(0,0,0,0.2) inset;
+  margin-left: -4px;
+}
+.siyah{
+  width: 30px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  margin-left:-19px;
+  border-radius:0 0 3px 3px;
+  
+
+}
+body{
+  background-image: url(background2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.snow{
+  width:4%;
+  position: absolute;
+}
+
+.repertuvar{
+  vertical-align: top;
+  margin-left: 15%;
+  position: absolute;
+}
+.repertuvar button{
+  margin-left: 200px;
+  margin-top: 10px;
+  font-size: large;
+  width: 200px;
+  height: 75px;
+  padding: 10px;
+  backdrop-filter: blur(25px);
+  backdrop-filter: saturate(300%);
+  background-color: rgba(226, 10, 197, 0.644);
+  box-shadow: none;
+  cursor: pointer;
+  color:white;
+  text-decoration: none;
+}
+
+.piyano{
+  padding-top: 35%;
+  padding-left: 9%;
+}
